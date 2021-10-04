@@ -1,9 +1,10 @@
 .card-feature {
+     background-color: white;
      border-radius: 5px;
      box-shadow: 5px 15px 30px -10px $grayish-blue-shadow, -5px 15px 30px -10px $grayish-blue-shadow, 0px 10px 15px -10px $cyan-shadow;
      display: grid;
      grid-template-rows: repeat(3,auto);
-     max-width: 20rem;
+     max-width: 22rem;
      padding: 2rem 2.5rem;
 }
 
