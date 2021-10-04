@@ -1,0 +1,39 @@
+.card-feature {
+     border-radius: 5px;
+     box-shadow: 5px 15px 30px -10px $grayish-blue-shadow, -5px 15px 30px -10px $grayish-blue-shadow, 0px 10px 15px -10px $cyan-shadow;
+     display: grid;
+     grid-template-rows: repeat(3,auto);
+     max-width: 20rem;
+     padding: 2rem 2.5rem;
+}
+
+.card-wrapper1 .card-feature {
+     border-top: 0.30rem solid $cyan;
+} 
+
+.card-wrapper3 .card-feature {
+     border-top: 0.30rem solid $blue;
+} 
+
+.card-wrapper2 .card-feature:first-child {
+     border-top: 0.30rem solid $red;
+}
+
+.card-wrapper2 .card-feature:last-child {
+     border-top: 0.30rem solid $orange;
+}
+
+.card-feature h2 {
+     padding-bottom: 0.5rem;
+}
+
+.card-feature p {
+     line-height: 1.8;
+}
+
+.card-feature-img {
+     height: 85%;
+     padding-top: 1.5rem;
+     place-self: end;
+}
+

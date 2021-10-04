@@ -1,0 +1,16 @@
+.cards-grid {
+     display: grid;
+     gap: 2rem;
+     grid-template-columns: repeat(auto-fit, minmax(15rem, max-content));
+     place-content: center;
+}
+
+.card-wrapper1, .card-wrapper3  {
+     align-self: center;
+}
+
+.card-wrapper2 {
+     display: grid;
+     gap: 2rem;
+}
+

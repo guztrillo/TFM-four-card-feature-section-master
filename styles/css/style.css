@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+body {
+  color: #a3a5ae;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400; }
+
+.card-feature h2, .cards-header h1 {
+  color: #4c4e61;
+  font-weight: 600; }
+
+.cards-header h1 {
+  line-height: 1.3;
+  font-size: 2.4rem; }
+
+.cards-header p {
+  font-size: 1rem; }
+
+.card-feature h2 {
+  font-size: 1.25rem; }
+
+.card-feature p {
+  font-size: 0.85rem; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 12px; }
+
+html, body {
+  background-color: #fafafa;
+  min-height: 100vh;
+  width: 100%; }
+
+.cards-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, max-content));
+  place-content: center; }
+
+.card-wrapper1, .card-wrapper3 {
+  align-self: center; }
+
+.card-wrapper2 {
+  display: grid;
+  gap: 2rem; }
+
+.card-feature {
+  border-radius: 5px;
+  box-shadow: 5px 15px 30px -10px rgba(163, 165, 174, 0.25), -5px 15px 30px -10px rgba(163, 165, 174, 0.25), 0px 10px 15px -10px rgba(69, 211, 211, 0.25);
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  max-width: 20rem;
+  padding: 2rem 2.5rem; }
+
+.card-wrapper1 .card-feature {
+  border-top: 0.3rem solid #45d3d3; }
+
+.card-wrapper3 .card-feature {
+  border-top: 0.3rem solid #549ef2; }
+
+.card-wrapper2 .card-feature:first-child {
+  border-top: 0.3rem solid #ea5353; }
+
+.card-wrapper2 .card-feature:last-child {
+  border-top: 0.3rem solid #fcaf4a; }
+
+.card-feature h2 {
+  padding-bottom: 0.5rem; }
+
+.card-feature p {
+  line-height: 1.8; }
+
+.card-feature-img {
+  height: 85%;
+  padding-top: 1.5rem;
+  place-self: end; }
+
+.cards-main {
+  align-content: center;
+  display: grid;
+  gap: 4rem;
+  min-height: 100vh;
+  width: 100%;
+  padding: 2rem; }
+
+.cards-header {
+  display: grid;
+  gap: 1rem;
+  place-content: center;
+  place-items: center; }
+
+.cards-header h1 {
+  font-weight: 200;
+  text-align: center;
+  max-width: 30rem; }
+
+.cards-header p {
+  max-width: 35rem;
+  text-align: center; }
+
+@media (max-width: 40rem) {
+  html {
+    font-size: 16px; }
+  .cards-header h1 {
+    font-size: 1.7rem;
+    max-width: 25rem; }
+  .cards-header p {
+    font-size: 0.90rem;
+    max-width: 18rem; }
+  .cards-main {
+    padding: 4rem 2rem; } }
