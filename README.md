@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Four card feature section](https://guztrillo.github.io/TFM-article-preview-component-master/)
+- Live Site URL: [Four card feature section](https://guztrillo.github.io/TFM-four-card-feature-section-master/)
 
 ## My process
 
