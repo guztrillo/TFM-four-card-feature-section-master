@@ -12,15 +12,14 @@
      gap: 1rem;
      place-content: center;
      place-items: center;
-}
 
-.cards-header h1 {
-     font-weight: 200;
-     text-align: center;
-     max-width: 30rem;
-}
-
-.cards-header p {
-     max-width: 32rem;
-     text-align: center;
+     h1 {
+          font-weight: 200;
+          text-align: center;
+          max-width: 30rem;
+     }
+     p {
+          max-width: 32rem;
+          text-align: center;
+     }
 }

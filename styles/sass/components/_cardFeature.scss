@@ -1,35 +1,46 @@
-.card-feature {
-     background-color: white;
+.card-feature-container{
      border-radius: 5px;
      box-shadow: 5px 15px 30px -10px $grayish-blue-shadow, -5px 15px 30px -10px $grayish-blue-shadow, 0px 10px 15px -10px $cyan-shadow;
+     overflow: hidden;
+     max-width: 22rem;
+     transition: box-shadow 0.2s ease-in;
+
+     &:hover {
+          box-shadow: 2.5px 7.5px 15px -10px $grayish-blue-shadow, -2.5px 7.5px 15px -10px $grayish-blue-shadow, 0px 5px 7.5px -10px $cyan-shadow;
+          transition: box-shadow 0.2s ease-out;
+     }
+}
+
+.card-feature {
+     background-color: white;
      display: grid;
      grid-template-rows: repeat(3,auto);
-     max-width: 22rem;
      padding: 2rem 2.5rem;
+
+     h2 {
+          padding-bottom: 0.5rem;
+     }
+
+     p {
+          line-height: 1.8;
+     }
 }
 
 .card-wrapper1 .card-feature {
-     border-top: 0.30rem solid $cyan;
+     border-top: 0.35rem solid $cyan;
 } 
 
 .card-wrapper3 .card-feature {
-     border-top: 0.30rem solid $blue;
+     border-top: 0.35rem solid $blue;
 } 
 
-.card-wrapper2 .card-feature:first-child {
-     border-top: 0.30rem solid $red;
-}
-
-.card-wrapper2 .card-feature:last-child {
-     border-top: 0.30rem solid $orange;
-}
-
-.card-feature h2 {
-     padding-bottom: 0.5rem;
-}
-
-.card-feature p {
-     line-height: 1.8;
+.card-wrapper2 .card-feature-container {
+     &:first-child .card-feature {
+          border-top: 0.35rem solid $red;
+     }
+     &:last-child .card-feature {
+          border-top: 0.35rem solid $orange;
+     }
 }
 
 .card-feature-img {
